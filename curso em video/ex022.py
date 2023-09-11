@@ -1,0 +1,8 @@
+nome = str(input('digite seu nome completo: '))
+print('seu nome em caixa alta e: {}!'.format(nome.upper()))
+print('seu nome em minusculo e: {}!'.format(nome.lower()))
+frase = (nome.split())
+dividido = nome.split()
+dividido2 = ''.join(dividido)
+print('seu primeiro nome e: {}!'.format(frase[0]))
+print('seu nome posui o comprimento de {} letras!'.format(len(dividido2)))

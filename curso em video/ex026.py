@@ -1,0 +1,11 @@
+import pygame
+pygame.init()
+pygame.mixer.music.load('musica.mp3')
+pygame.mixer.music.play()
+frase = str(input('digite algo: ')).upper().strip()
+n1 = frase.count('A')
+n2 = frase.find('A')
+n3 = frase.rfind('A')
+print('a letra "a" aparece {} vezes na frase'.format(n1))
+print('a primeira letra "a" aparece na posição: {}'.format(n2))
+print('a ultima letra "a" aparece na posição: {}'.format(n3))
